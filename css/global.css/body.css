@@ -1,0 +1,9 @@
+body {
+    background: url("../../assets/Imagens/global-imagens/conteudo.png") no-repeat center center;
+    background-attachment: fixed;
+    background-size: cover;
+
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+}
