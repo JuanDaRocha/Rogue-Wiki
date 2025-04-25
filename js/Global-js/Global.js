@@ -27,4 +27,4 @@ function FtAnimado() {
     }
   }
 
-  window.addEventListener('scroll', FtAnimado);
+window.addEventListener('scroll', FtAnimado);
