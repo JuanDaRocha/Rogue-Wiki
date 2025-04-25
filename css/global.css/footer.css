@@ -12,3 +12,16 @@ footer {
     background-color: #0b0b0b;
     transition: all 0.4s ease;
 }
+
+footer > p > a {
+    color: #D9AE00;
+    font-family: cursive;
+    text-decoration: none;
+    transition: all 0.4s;
+}
+
+footer > p > a:hover {
+    color: #ffcc00;
+    text-decoration: underline;
+    transition: all 0.4s;
+}
