@@ -1,0 +1,70 @@
+main {
+    margin: 130px 1px 170px 1px;
+}
+
+.conteudo-menu {
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    justify-content: center;
+    max-width: 1000px;
+    padding: 1px 1px 1px 1px;
+    border-radius: 13px;
+    background-color: #141414;
+}
+
+.conteudo-menu > h1, h2, p {
+    font-family: cursive;
+    color: #ffffff ;
+    text-align: center;
+}
+
+.conteudo-menu > h1 {
+    width: 100%;
+    padding: 5px 1px 5px 1px;
+    border-radius: 10px 10px 1px 1px;
+    background-color: #0b0b0b;
+}
+
+.conteudo-menu > p {
+    padding: 20px 120px;
+}
+
+.conteudo-menu > div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-flow: column wrap;
+}
+
+.conteudo-menu > div > img {
+    width: 100px;
+    height: 100px;
+    margin: 10px 1px 15px 1px;
+    border-radius: 100%;
+}
+
+.conteudo-menu > div > a {
+    color: #ffcc00;
+    text-decoration: none;
+    font-family: cursive;
+}
+
+.conteudo-menu > div > a:hover {
+    color: #ffcc00;
+    text-decoration: underline;
+}
+
+.conteudo-menu > div {
+    margin: 1px 1px 60px 1px;
+}
+
+.conteudo-menu > p > a {
+    color: #ffcc00;
+    text-decoration: none;
+}
+
+.conteudo-menu > p > a:hover {
+    color: #ffcc00;
+    text-decoration: underline;
+}
