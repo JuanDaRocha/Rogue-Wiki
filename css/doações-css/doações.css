@@ -12,3 +12,41 @@ main {
     border-radius: 13px;
     background-color: #141414;
 }
+
+.conteudo-menu > h1, h2, p {
+    color: #ffffff ;
+    text-align: center;
+    font-family: cursive;
+}
+
+.conteudo-menu > h1 {
+    width: 100%;
+    padding: 5px 1px 5px 1px;
+    border-radius: 10px 10px 1px 1px;
+    font-family: cursive;
+    background-color: #0b0b0b;
+}
+
+.conteudo-menu > h2 {
+    padding: 25px 1px 25px 1px;
+}
+
+.conteudo-menu > p {
+    padding: 1px 50px 0px 50px;
+}
+
+.conteudo-menu > p > a {
+    color: #ffcc00;
+    text-decoration: none;
+}
+
+.conteudo-menu > p > a:hover {
+    color: #ffcc00;
+    text-decoration: underline;
+}
+
+.conteudo-menu > img {
+    width: 30%;
+    margin: 10px 1px 15px 1px;
+    border-radius: 10px;
+}
