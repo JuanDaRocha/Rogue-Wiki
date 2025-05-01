@@ -26,7 +26,7 @@ Essa wiki foi criada com o objetivo de centralizar e organizar o máximo de info
 Se você é novo no jogo, recomendamos começar por:
 
 - [Guia para Iniciantes](https://juandarocha.github.io/Rogue-Wiki/index.html)
-- [Explicação de Raças](ainda não existe)
+- [Explicação de Raças](https://juandarocha.github.io/Rogue-Wiki/assets/wikis/Raças/Raças.html)
 - [Explicação das classes](ainda não existe)
 
 ---
