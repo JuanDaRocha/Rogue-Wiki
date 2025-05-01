@@ -111,3 +111,8 @@ td {
     border-radius: 2px;
     transition: 0.3s ease;
 }
+
+.Controle-Img-Tamanho:hover {
+    transform: scale(1.05);
+    transition: 0.3s ease;
+}
