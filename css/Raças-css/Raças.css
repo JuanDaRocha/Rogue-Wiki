@@ -26,9 +26,32 @@ main {
     background-color: #0b0b0b;
 }
 
+.conteudo-principal > h2 {
+    padding: 30px 1px 25px 1px;
+}
+
 .conteudo-principal > p {
     padding: 20px 50px;
 }
+
+.conteudo-principal > p > a {
+    color: #ffcc00;
+    text-decoration: none;
+}
+
+.conteudo-principal > p > a:hover {
+    color: #ffcc00;
+    text-decoration: underline;
+}
+
+.conteudo-principal > hr {
+    border: none;
+    width: 90%;
+    height: 1px; /* Aumenta a altura para garantir visibilidade */
+    background: linear-gradient(to right, rgba(255, 255, 255, 0), rgb(182, 182, 182), rgba(255, 255, 255, 0)); /* Gradiente com transparência nas bordas */
+}
+
+
 
 .tabelas-flex {
     max-width: 50%;
@@ -55,4 +78,36 @@ th {
 
 td {
     background-color: #1A1A1A;
+}
+
+.Nav-raças {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.teste {
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    width: 120px;
+    text-align: center;
+}
+
+.teste a {
+    color: #ffcc00;
+    text-decoration: none;
+    margin-top: 5px;
+    font-family: cursive;
+}
+
+.Controle-Img-Tamanho {
+    width: 120px;
+    height: 150px;
+    margin-bottom: 7px;
+    border-radius: 2px;
+    transition: 0.3s ease;
 }
