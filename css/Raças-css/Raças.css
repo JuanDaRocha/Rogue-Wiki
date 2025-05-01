@@ -1,1 +1,58 @@
+main {
+    margin: 130px 1px 170px 1px;
+}
 
+.conteudo-principal {
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    justify-content: center;
+    max-width: 1000px;
+    padding: 1px 1px 1px 1px;
+    border-radius: 13px;
+    background-color: #141414;
+}
+
+.conteudo-principal > h1, h2, p {
+    font-family: cursive;
+    color: #ffffff ;
+    text-align: center;
+}
+
+.conteudo-principal > h1 {
+    width: 100%;
+    padding: 5px 1px 5px 1px;
+    border-radius: 10px 10px 1px 1px;
+    background-color: #0b0b0b;
+}
+
+.conteudo-principal > p {
+    padding: 20px 50px;
+}
+
+.tabelas-flex {
+    max-width: 50%;
+    overflow-x: auto;
+}
+
+table {
+    border-collapse: collapse;
+    font-family: "Roboto", sans-serif;
+    min-width: 100%; /* mais largo que uma tela de celular */
+    width: max-content; /* garante que ela cresça conforme o conteúdo */
+    margin: 10px auto;
+    color: white;
+}
+
+td, th {
+    border: 1px solid #ffffff15;
+    padding: 10px 15px;
+}
+
+th {
+    background-color: #262626;
+}
+
+td {
+    background-color: #1A1A1A;
+}
