@@ -14,7 +14,7 @@ main {
 }
 
 .conteudo-menu > h1, h2, p {
-    font-family: cursive;
+    font-family: "Delius", cursive;
     color: #ffffff ;
     text-align: center;
 }
@@ -47,7 +47,7 @@ main {
 .conteudo-menu > div > a {
     color: #ffcc00;
     text-decoration: none;
-    font-family: cursive;
+    font-family: "Delius", cursive;
 }
 
 .conteudo-menu > div > a:hover {

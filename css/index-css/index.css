@@ -18,7 +18,8 @@ main {
 }
 
 .conteudo-geral > h2, p {
-    font-family: cursive;
+    font-family: "Delius", cursive;
+    font-weight: normal;
     color: #ffffff ;
     text-align: center;
 }
@@ -94,7 +95,7 @@ main {
 
 .Link-wiki {
     color: #D9AE00;
-    font-family: cursive;
+    font-family: "Delius", cursive;
     text-decoration: none;
     transition: all 0.4s;
 }

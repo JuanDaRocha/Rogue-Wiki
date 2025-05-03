@@ -10,7 +10,7 @@ main {
 }
 
 .conteudo-principal > section > h1, h2, h3, p {
-    font-family: cursive;
+    font-family: "Delius", cursive;
     color: #ffffff ;
     text-align: center;
 }
@@ -89,7 +89,7 @@ main {
     font-size: 16px;
     padding-left: 1em;   
     margin-bottom: 2em;
-    font-family: cursive;
+    font-family: "Delius", cursive;
 }
 
 .Organização-Ul > ul > li > ul {
@@ -97,7 +97,7 @@ main {
     list-style-position: inside; 
     font-size: 15px;
     padding-left: 1em;   
-    font-family: cursive;
+    font-family: "Delius", cursive;
 }
 
 

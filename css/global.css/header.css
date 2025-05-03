@@ -16,7 +16,7 @@ header {
     margin: 1px 1px 1px 50px;
     font-size: 1.7em;
     font-weight: bold;
-    font-family: cursive;
+    font-family: "Delius", cursive;
     text-decoration: none;
     color: #ffffff;
     transition: 0.5s;
@@ -39,7 +39,8 @@ header {
 
 #nav-links > a {
     font-size: 1.2em;
-    font-family: cursive;
+    font-family: "Delius", cursive;
+    font-weight: bold;
     text-decoration: none;
     color: #ffffff;
     transition: all 0.3s ease;
