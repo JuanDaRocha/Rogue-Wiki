@@ -14,7 +14,7 @@ main {
 }
 
 .conteudo-principal > h1, h2, p {
-    font-family: cursive;
+    font-family: "Delius", cursive;
     color: #ffffff ;
     text-align: center;
 }
@@ -100,7 +100,7 @@ td {
 .teste a {
     color: #ffcc00;
     text-decoration: none;
-    font-family: cursive;
+    font-family: "Delius", cursive;
 }
 
 .Controle-Img-Tamanho {

@@ -12,7 +12,6 @@ main {
     align-items: center;
     justify-content: center;
     max-width: 1000px;
-    padding: 1px 1px 1px 1px;
     border-radius: 13px;
     background-color: #141414;
 }
@@ -37,7 +36,7 @@ main {
 }
 
 #wiki-sobre {
-    margin: 1px 1px 25px 1px;
+    margin: 0px 0px 25px 0px;
 }
 
 #wiki-sobre > a {
