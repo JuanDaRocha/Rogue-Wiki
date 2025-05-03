@@ -36,7 +36,7 @@ main {
 }
 
 #wiki-sobre {
-    margin: 0px 0px 25px 0px;
+    margin-bottom: 25px;
 }
 
 #wiki-sobre > a {
