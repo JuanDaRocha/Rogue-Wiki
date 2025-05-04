@@ -69,14 +69,14 @@ main {
     min-width: 250px;
 }
 
-#Img-centralizar {
+.Img-centralizar {
     flex: 1;
     display: flex;
     justify-content: center;
     min-width: 250px;
 }
 
-#Img-centralizar img {
+.Img-centralizar img {
     max-width: 100%;
     height: auto;
     border-radius: 10px; 
