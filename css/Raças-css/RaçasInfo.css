@@ -33,12 +33,13 @@ main {
     padding: 20px 20px 30px 20px
 }
 
-
+.conteudo-principal > section > p > a,
 .conteudo-principal > section > ul > li a {
     color: #ffcc00;
     text-decoration: none;
 }
 
+.conteudo-principal > section > p > a:hover,
 .conteudo-principal > section > ul > li > strong > a:hover,
 .conteudo-principal > section > ul > li > ul > li > a:hover,
 .conteudo-principal > section > ul > li > a:hover {
