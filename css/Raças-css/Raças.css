@@ -48,7 +48,7 @@ main {
     border: none;
     width: 90%;
     height: 1px; /* Aumenta a altura para garantir visibilidade */
-    background: linear-gradient(to right, rgba(255, 255, 255, 0), rgb(182, 182, 182), rgba(255, 255, 255, 0)); /* Gradiente com transparência nas bordas */
+    background: linear-gradient(to right, rgba(255, 255, 255, 0), rgb(141 140 140), rgba(255, 255, 255, 0)); /* Gradiente com transparência nas bordas */
 }
 
 
@@ -82,7 +82,7 @@ td {
 
 .Nav-raças {
     display: flex;
-    flex-wrap: wrap;
+    flex-flow: row wrap;
     justify-content: center;
     gap: 15px;
     margin-top: 20px;

@@ -55,7 +55,7 @@ main {
     width: 90%;
     height: 1px;
     margin: 1px 1px 20px 1px;
-    background: linear-gradient(to right, rgb(182, 182, 182), rgba(182, 182, 182, 0.336), rgba(255, 255, 255, 0));
+    background: linear-gradient(to right, rgb(141 140 140), rgba(182, 182, 182, 0.336), rgba(255, 255, 255, 0));
 }
 
 .RaçaSobre-Flex {

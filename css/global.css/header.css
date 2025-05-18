@@ -69,14 +69,14 @@ header {
 #menu-toggle.active .line1 {
     transform: rotate(45deg) translate(5px, 5px);
     transition: all 1s ease;
-  }
+}
   
-  #menu-toggle.active .line2 {
+#menu-toggle.active .line2 {
     opacity: 0;
     transition: all 1s ease;
-  }
+}
   
-  #menu-toggle.active .line3 {
+#menu-toggle.active .line3 {
     transform: rotate(-45deg) translate(5px, -5px);
     transition: all 1s ease;
-  }
+}
