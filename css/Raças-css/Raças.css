@@ -1,5 +1,10 @@
 main {
     margin: 130px 1px 170px 1px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column;
 }
 
 .conteudo-principal {
@@ -30,16 +35,20 @@ main {
     padding: 30px 1px 25px 1px;
 }
 
-.conteudo-principal > p {
+.Flex-texto {
+    width: 700px;
+}
+
+.conteudo-principal > div > p {
     padding: 20px 50px;
 }
 
-.conteudo-principal > p > a {
+.conteudo-principal > div > p > a {
     color: #ffcc00;
     text-decoration: none;
 }
 
-.conteudo-principal > p > a:hover {
+.conteudo-principal > div > p > a:hover {
     color: #ffcc00;
     text-decoration: underline;
 }
@@ -114,4 +123,57 @@ td {
 .Controle-Img-Tamanho:hover {
     transform: scale(1.05);
     transition: 0.3s ease;
+}
+
+@media (max-width: 747px) {
+    .conteudo-principal {
+        padding: 0px 0px 10px 0px;
+        width: 100%;
+    }
+
+    .Flex-texto {
+        width: 100%;
+        padding: 10px;
+    }
+
+    .conteudo-principal > div > p {
+        padding: 10px;
+        font-size: 14px;
+    }
+
+    .conteudo-principal > h1 {
+        font-size: 20px;
+        width: 100%;
+    }
+
+    .conteudo-principal > h2 {
+        font-size: 18px;
+        padding: 20px 0 10px 0;
+    }
+
+    .tabelas-flex {
+        max-width: 77%;
+        overflow-x: auto;
+    }
+
+    table {
+        font-size: 12px;
+    }
+
+    td, th {
+        padding: 6px 8px;
+    }
+
+    .Nav-raças {
+        gap: 10px;
+    }
+
+    .teste {
+        width: 100px;
+    }
+
+    .Controle-Img-Tamanho {
+        width: 100px;
+        height: 125px;
+    }
 }
