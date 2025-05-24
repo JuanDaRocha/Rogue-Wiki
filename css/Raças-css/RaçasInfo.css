@@ -2,20 +2,20 @@ main {
     margin: 130px 1px 170px 1px;
 }
 
-.conteudo-principal {
+.conteudo-menu {
     max-width: 1000px;
     padding: 1px 1px 1px 1px;
     border-radius: 13px;
     background-color: #141414;
 }
 
-.conteudo-principal > section > h1, h2, h3, p {
+.conteudo-menu > section > h1, h2, h3, p {
     font-family: "Delius", cursive;
     color: #ffffff ;
     text-align: center;
 }
 
-.conteudo-principal > section > h1 {
+.conteudo-menu > section > h1 {
     width: 100%;
     font-size: 20px;
     padding: 5px 1px 5px 1px;
@@ -23,26 +23,26 @@ main {
     background-color: #0b0b0b;
 }
 
-.conteudo-principal > section > h2, h3 {
+.conteudo-menu > section > h2, h3 {
     text-align: left;
     padding: 30px 10px 5px 25px;
 }
 
 #RaçaSobre-filho > p,
-.conteudo-principal > section > p {
+.conteudo-menu > section > p {
     padding: 20px 20px 30px 20px
 }
 
-.conteudo-principal > section > p > a,
-.conteudo-principal > section > ul > li a {
+.conteudo-menu > section > p > a,
+.conteudo-menu > section > ul > li a {
     color: #ffcc00;
     text-decoration: none;
 }
 
-.conteudo-principal > section > p > a:hover,
-.conteudo-principal > section > ul > li > strong > a:hover,
-.conteudo-principal > section > ul > li > ul > li > a:hover,
-.conteudo-principal > section > ul > li > a:hover {
+.conteudo-menu > section > p > a:hover,
+.conteudo-menu > section > ul > li > strong > a:hover,
+.conteudo-menu > section > ul > li > ul > li > a:hover,
+.conteudo-menu > section > ul > li > a:hover {
     color: #ffcc00;
     text-decoration: underline;
 }
@@ -50,7 +50,7 @@ main {
 
 
 
-.conteudo-principal > section > hr {
+.conteudo-menu > section > hr {
     border: none;
     width: 90%;
     height: 1px;

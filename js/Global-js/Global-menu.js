@@ -3,5 +3,5 @@ ScrollReveal().reveal('.conteudo-menu', {
     distance: '60px',
     duration: 500,
     delay: 300,
-    reset: true
+    reset: false
 });

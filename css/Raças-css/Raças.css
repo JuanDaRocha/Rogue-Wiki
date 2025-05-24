@@ -7,7 +7,7 @@ main {
     flex-flow: column;
 }
 
-.conteudo-principal {
+.conteudo-menu {
     display: flex;
     flex-flow: column wrap;
     align-items: center;
@@ -18,20 +18,20 @@ main {
     background-color: #141414;
 }
 
-.conteudo-principal > h1, h2, p {
+.conteudo-menu > h1, h2, p {
     font-family: "Delius", cursive;
     color: #ffffff ;
     text-align: center;
 }
 
-.conteudo-principal > h1 {
+.conteudo-menu > h1 {
     width: 100%;
     padding: 5px 1px 5px 1px;
     border-radius: 10px 10px 1px 1px;
     background-color: #0b0b0b;
 }
 
-.conteudo-principal > h2 {
+.conteudo-menu > h2 {
     padding: 30px 1px 25px 1px;
 }
 
@@ -39,28 +39,26 @@ main {
     width: 700px;
 }
 
-.conteudo-principal > div > p {
+.conteudo-menu > div > p {
     padding: 20px 50px;
 }
 
-.conteudo-principal > div > p > a {
+.conteudo-menu > div > p > a {
     color: #ffcc00;
     text-decoration: none;
 }
 
-.conteudo-principal > div > p > a:hover {
+.conteudo-menu > div > p > a:hover {
     color: #ffcc00;
     text-decoration: underline;
 }
 
-.conteudo-principal > hr {
+.conteudo-menu > hr {
     border: none;
     width: 90%;
     height: 1px; /* Aumenta a altura para garantir visibilidade */
     background: linear-gradient(to right, rgba(255, 255, 255, 0), rgb(141 140 140), rgba(255, 255, 255, 0)); /* Gradiente com transparência nas bordas */
 }
-
-
 
 .tabelas-flex {
     max-width: 50%;
@@ -126,7 +124,7 @@ td {
 }
 
 @media (max-width: 747px) {
-    .conteudo-principal {
+    .conteudo-menu {
         padding: 0px 0px 10px 0px;
         width: 100%;
     }
@@ -136,17 +134,17 @@ td {
         padding: 10px;
     }
 
-    .conteudo-principal > div > p {
+    .conteudo-menu > div > p {
         padding: 10px;
         font-size: 14px;
     }
 
-    .conteudo-principal > h1 {
+    .conteudo-menu > h1 {
         font-size: 20px;
         width: 100%;
     }
 
-    .conteudo-principal > h2 {
+    .conteudo-menu > h2 {
         font-size: 18px;
         padding: 20px 0 10px 0;
     }

@@ -1,0 +1,19 @@
+main {
+    margin: 130px 1px 170px 1px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column;
+}
+
+.conteudo-principal {
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    justify-content: center;
+    max-width: 1000px;
+    padding: 1px 1px 1px 1px;
+    border-radius: 13px;
+    background-color: #141414;
+}
