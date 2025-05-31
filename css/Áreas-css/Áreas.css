@@ -1,0 +1,157 @@
+main {
+    margin: 130px 1px 170px 1px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column;
+}
+
+.conteudo-menu {
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    justify-content: center;
+    max-width: 1000px;
+    padding: 1px 1px 1px 1px;
+    border-radius: 13px;
+    background-color: #141414;
+}
+
+.conteudo-menu > section > h1,
+h2,
+h3,
+h4,
+p,
+ul {
+    font-family: "Delius", cursive;
+    color: #ffffff;
+    text-align: center;
+}
+
+.conteudo-menu > section > h1 {
+    width: 100%;
+    padding: 5px 1px 5px 1px;
+    border-radius: 10px 10px 1px 1px;
+    background-color: #0b0b0b;
+}
+
+.conteudo-menu > section > h2 {
+    padding: 30px 1px 20px 1px;
+}
+
+.conteudo-menu > section > p {
+    padding: 40px 30px 40px 30px;
+}
+
+.conteudo-menu > section > hr {
+    border: none;
+    width: 90%;
+    height: 1px;
+    background: linear-gradient(to right, rgba(255, 255, 255, 0), rgb(141 140 140), rgba(255, 255, 255, 0));
+}
+
+#MapaMundo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+}
+
+#MapaMundo img {
+    max-width: 100%;
+    height: auto;
+}
+
+.Mapa-localiza {
+    width: 100%;
+}
+
+.Localiza {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+    padding: 65px 0px 20px 10px;
+}
+
+.Localiza > h3 {
+    text-align: left;
+    font-size: 25px;
+    padding-top: 35px;
+    padding-bottom: 5px;
+    border-bottom: 2px solid #454545;
+    width: 99%;
+}
+
+.Localiza > h4 {
+    border-bottom: 2px solid #454545;
+    margin: 25px 1px 5px 1px;
+}
+
+.Localiza > ul {
+    width: 600px;
+    text-align: left;
+    list-style-position: inside;
+    padding-left: 10px;
+    padding-bottom: 30px;
+}
+
+/* ------------------- RESPONSIVIDADE ------------------- */
+
+@media (max-width: 768px) {
+    main {
+        margin: 100px 10px 100px 10px;
+        padding: 0 10px;
+    }
+
+    .conteudo-menu {
+        padding: 0px 0px 10px 0px;
+        border-radius: 10px;
+    }
+
+    .conteudo-menu > section > p {
+        padding: 20px 15px;
+    }
+
+    #MapaMundo img {
+        max-width: 100%;
+        height: auto;
+        padding: 0px 10px 0px 10px;
+    }
+
+    .Localiza > ul {
+        width: 100%;
+        padding-left: 10px;
+    }
+
+    .Localiza {
+        padding: 20px 10px;
+    }
+
+    .conteudo-menu > section > h1,
+    .conteudo-menu > section > h2,
+    .conteudo-menu > section > h3,
+    .conteudo-menu > section > h4,
+    .conteudo-menu > section > p,
+    .conteudo-menu > section > ul {
+        font-size: 1rem;
+        text-align: center;
+    }
+}
+
+@media (max-width: 480px) {
+    .conteudo-menu > section > h1 {
+        font-size: 1.2rem;
+    }
+
+    .conteudo-menu > section > h2 {
+        font-size: 1.1rem;
+    }
+
+    .conteudo-menu > section > p,
+    .Localiza > ul li {
+        font-size: 0.95rem;
+    }
+}
