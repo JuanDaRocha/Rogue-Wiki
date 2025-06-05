@@ -52,6 +52,15 @@ header {
     transition: all 0.3s ease;
 }
 
+#WorldPortal {
+    width: 50px;
+    height: 50px;
+    background-color: #ffff;
+    border-radius: 20%;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
 #menu-toggle {
     cursor: pointer;
     padding: 1px 20px 1px 1px;

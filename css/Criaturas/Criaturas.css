@@ -1,0 +1,87 @@
+main {
+    margin: 130px 1px 170px 1px;
+}
+
+.conteudo-menu {
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    justify-content: center;
+    max-width: 1000px;
+    padding: 1px 1px 40px 1px;
+    border-radius: 13px;
+    background-color: #141414;
+}
+
+.conteudo-menu > h1, h2, p {
+    font-family: "Delius", cursive;
+    color: #ffffff ;
+    text-align: center;
+}
+
+.conteudo-menu > h1 {
+    width: 100%;
+    padding: 5px 1px 5px 1px;
+    border-radius: 10px 10px 1px 1px;
+    background-color: #0b0b0b;
+}
+
+.conteudo-menu > h2 {
+    margin-bottom: 5px;
+}
+
+.conteudo-menu > p {
+    margin: 40px 70px 40px 70px;
+
+}
+
+.conteudo-menu > hr {
+    border: none;
+    width: 90%;
+    height: 1px;
+    background: linear-gradient(to right, rgba(255, 255, 255, 0), rgb(141 140 140), rgba(255, 255, 255, 0)); /* Gradiente com transparência nas bordas */
+}
+
+#Monstro-Flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row wrap;
+    gap: 40px 40px;
+    max-width: 600px;
+    max-height: 520px;
+    background-color: #252525;
+    padding: 20px;
+    margin: 0px 5px 0px 5px;
+    border-radius: 10px;
+}
+
+.Caixa-monstro {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column;
+}
+
+.Caixa-monstro > a > img {
+    width: 100px;
+    height: 100px;
+    margin-bottom: 10px;
+    transition: 0.5s ease;
+    border-radius: 5px;
+}
+
+.Caixa-monstro > a > img:hover {
+    transform: scale(1.05);
+    transition: 0.4s ease;
+}
+
+.Caixa-monstro > a {
+    color: #ffcc00;
+    text-decoration: none;
+    font-family: "Delius", cursive;
+}
+
+.Caixa-monstro > a:hover {
+    text-decoration: underline;
+}

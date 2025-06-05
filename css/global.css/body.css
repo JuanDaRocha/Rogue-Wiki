@@ -1,5 +1,7 @@
 body {
-    background: url("../../assets/Imagens/global-imagens/conteudo.png") no-repeat center center;
+    background-image: url("../../assets/Imagens/global-imagens/conteudo.png");
+    background-repeat: no-repeat;
+    background-position: center center;
     background-attachment: fixed;
     background-size: cover;
 

@@ -59,16 +59,19 @@ main {
 }
 
 #Navegação {
+    background-color: #252525;
+    width: 80%;
+    padding: 30px;
+    margin: 30px;
+    border-radius: 15px;
+}
+
+#Navegação > div {
     display: flex;
     flex-flow: row wrap;
     justify-content: center;
     align-items: center;
-    width: 80%;
     gap: 40px 20px;
-    padding: 30px;
-    margin: 30px;
-    border-radius: 15px;
-    background-color: #252525;
 }
 
 .Divs-wiki {
@@ -104,3 +107,16 @@ main {
     text-decoration: underline;
     transition: all 0.4s;
 }
+
+#nav-gaia > div {
+    display: flex;
+    opacity: 1;
+    transition: opacity 1s ease;
+}
+
+#nav-khei > div {
+    display: none;
+    opacity: 0;
+    transition: opacity 1s ease;
+}
+
