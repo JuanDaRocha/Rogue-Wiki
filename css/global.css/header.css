@@ -53,12 +53,21 @@ header {
 }
 
 #WorldPortal {
-    width: 50px;
-    height: 50px;
+    width: 45px;
+    height: 45px;
     background-color: #ffff;
     border-radius: 20%;
     margin-left: 20px;
     margin-right: 20px;
+    cursor: pointer;
+    transition: 1s ease;
+}
+
+#WorldPortal:hover {
+    transition: 1s ease;
+    background-color: #fdcb02;
+    transform: scale(1.08);
+
 }
 
 #menu-toggle {

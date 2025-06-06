@@ -1,0 +1,109 @@
+main {
+    margin: 130px 1px 170px 1px;
+}
+
+.conteudo-menu {
+    max-width: 1000px;
+    padding: 1px 1px 1px 1px;
+    border-radius: 13px;
+    background-color: #141414;
+}
+
+.conteudo-menu > section > h1, h2, h3, p {
+    font-family: "Delius", cursive;
+    color: #ffffff ;
+    text-align: center;
+}
+
+.conteudo-menu > section > h1 {
+    width: 100%;
+    font-size: 20px;
+    padding: 5px 1px 5px 1px;
+    border-radius: 10px 10px 1px 1px;
+    background-color: #0b0b0b;
+}
+
+.conteudo-menu > section > h2, h3 {
+    text-align: left;
+    padding: 30px 10px 5px 25px;
+}
+
+#Monstro-filho > p,
+.conteudo-menu > section > p {
+    padding: 20px 20px 30px 20px
+}
+
+.conteudo-menu > section > p > a,
+.conteudo-menu > section > ul > li a {
+    color: #ffcc00;
+    text-decoration: none;
+}
+
+.conteudo-menu > section > p > a:hover,
+.conteudo-menu > section > ul > li > strong > a:hover,
+.conteudo-menu > section > ul > li > ul > li > a:hover,
+.conteudo-menu > section > ul > li > a:hover {
+    color: #ffcc00;
+    text-decoration: underline;
+}
+
+
+
+
+.conteudo-menu > section > hr {
+    border: none;
+    width: 90%;
+    height: 1px;
+    margin: 1px 1px 20px 1px;
+    background: linear-gradient(to right, rgb(182, 182, 182), rgba(182, 182, 182, 0.336), rgba(255, 255, 255, 0));
+}
+
+.Monstro-Flex {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center; 
+    gap: 20px; 
+}
+
+#Monstro-filho {
+    flex: 1; 
+    min-width: 250px;
+}
+
+.Centralizador {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    min-width: 250px;
+}
+
+.Centralizador img {
+    max-width: 100%;
+    height: auto;
+    width: 300px;
+    border-radius: 10px; 
+    margin: 30px 1px 1px 1px;
+}
+
+.Monstro-Organização > ul {
+    color: #E6E6E6;             
+    list-style-position: inside; 
+    line-height: 35px;
+    font-size: 16px;
+    padding-left: 1em;   
+    margin-bottom: 2em;
+    font-family: "Delius", cursive;
+}
+
+.Monstro-Organização > ul > li > ul {
+    color: rgb(189, 189, 189);             
+    list-style-position: inside; 
+    font-size: 15px;
+    padding-left: 1em;   
+    font-family: "Delius", cursive;
+}
+
+
+.Monstro-Organização > p {
+    text-align: left;
+}
