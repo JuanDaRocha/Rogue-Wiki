@@ -80,8 +80,37 @@ main {
     color: #ffcc00;
     text-decoration: none;
     font-family: "Delius", cursive;
+    text-align: center;
 }
 
 .Caixa-monstro > a:hover {
     text-decoration: underline;
+}
+
+@media screen and (max-width: 768px) {
+
+    .conteudo-menu > p {
+        margin: 10px;
+    }
+
+    #Monstro-Flex {
+        gap: 15px;
+        padding: 15px;
+    }
+
+    .Caixa-monstro > a > img {
+        width: 80px;
+        height: 80px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .Caixa-monstro > a > img {
+        width: 70px;
+        height: 70px;
+    }
+
+    .Caixa-monstro {
+        max-width: 100px;
+    }
 }
