@@ -15,14 +15,16 @@ ScrollReveal().reveal('#Wiki-nav', {
 });
 
 
-function WorldPortal() { 
+function WorldPortal() {
     const gaiaDivs = document.querySelectorAll("#nav-gaia > div");
     const kheiDivs = document.querySelectorAll("#nav-khei > div");
+    const portalButton = document.querySelector(".gaia-btn p"); // seleciona o texto < GAIA >
 
     const primeiroGaia = gaiaDivs[0];
     const displayGaia = window.getComputedStyle(primeiroGaia).display;
 
     if (displayGaia === "flex") {
+        // Troca para Khei
         gaiaDivs.forEach(div => div.style.opacity = "0");
         setTimeout(() => {
             gaiaDivs.forEach(div => {
@@ -36,8 +38,11 @@ function WorldPortal() {
                     div.style.opacity = "1";
                 }, 50);
             });
+
+            portalButton.innerHTML = "&lt; KHEI &gt;"; // muda o nome para KHEI
         }, 400);
     } else {
+        // Volta para Gaia
         kheiDivs.forEach(div => div.style.opacity = "0");
         setTimeout(() => {
             kheiDivs.forEach(div => {
@@ -51,7 +56,10 @@ function WorldPortal() {
                     div.style.opacity = "1";
                 }, 50);
             });
+
+            portalButton.innerHTML = "&lt; GAIA &gt;"; // volta para GAIA
         }, 400);
     }
 }
+
 

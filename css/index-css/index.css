@@ -58,11 +58,26 @@ main {
     transition: 0.5s ease;
 }
 
+.gaia-btn p {
+    font-family: "Delius", cursive;
+    font-weight: normal;
+    color: #ffffff ;
+    text-align: center;
+    cursor: pointer;
+    font-size: 23px;
+    margin: 30px 1px 1px 1px;
+    transition: all ease 0.5s;
+}
+.gaia-btn:hover p {
+    text-shadow: 0 0 15px #ffcd07, 0 0 25px #fbbf24;
+    transform: scale(1.1);
+}
+
 #Navegação {
     background-color: #252525;
     width: 80%;
     padding: 30px;
-    margin: 30px;
+    margin: 5px 30px 30px 30px;
     border-radius: 15px;
 }
 
@@ -119,4 +134,3 @@ main {
     opacity: 0;
     transition: opacity 1s ease;
 }
-
