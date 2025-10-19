@@ -1,16 +1,26 @@
 @media screen and (min-width: 0px) and (max-width: 730px) {
     #nav-links {
         position: absolute;
-        top: 7vh;
+        top: 64px;
         right: 0;
         width: 50vw;
-        height: 93vh;
+        height: 96vh;
         background-color: #0b0b0b;
         flex-direction: column;
         justify-content: space-around;
         transform: translateX(100%);
         transition: transform 0.3s ease;
     }
+
+    #nav-links > a {
+        font-size: 1.5em;
+    }
+
+    #nav-links > img {
+        width: 50%;
+        height: 10%;
+    }
+
 
     #menu-toggle div{
         display: block;
